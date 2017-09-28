@@ -6,5 +6,5 @@ function moveright(){
     img.style.ml=ml+'px';
     }
     img.onclick=function(){
-        var interval=setinterval(moveright,10);
+        var interval=setInterval(moveright,10);
     };
