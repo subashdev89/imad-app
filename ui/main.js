@@ -1,11 +1,11 @@
 console.log('Loaded!');
 var img = document.getElementById('madi');
-var ml = 0;
-function mr(){
-    ml = ml + 1;
-    img.style.ml = ml + 'px';
+var marginleft = 0;
+function marginRight(){
+    marginleft = marginleft + 1;
+    img.style.marginleft = marginleft + 'px';
     }
     img.onclick = function(){
-      var interval = setInterval(mr, 20);  
+      var interval = setInterval(marginRight, 20);  
     };
     
